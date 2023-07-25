@@ -3,6 +3,7 @@
 # #0f172a s-9
 # #475569 s-6
 from datetime import datetime
+import pyperclip
 import re
 import clipboard
 import requests
@@ -14,15 +15,11 @@ from flet import (
     alignment,
     padding,
     ResponsiveRow,
-    border,
     Container,
     Text,
-    margin,
     LinearGradient,
     CircleAvatar,
     TextField,
-    colors,
-    ElevatedButton,
     TextButton,
     InputBorder,
     TextStyle,
@@ -68,7 +65,7 @@ def main(page: Page):
 
     #
     def paste_click(e):
-        url_tiktok = clipboard.paste()
+        url_tiktok = pyperclip.paste()
         url_tiktok_textField.value = url_tiktok
         page.update()
 
