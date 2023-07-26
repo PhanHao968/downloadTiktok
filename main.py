@@ -237,7 +237,7 @@ def main(page: Page):
 
     # bg container
     _backround = Container(
-        height=page.height,
+        # height=page.height,
         expand=True,
         margin=-10,
         gradient=LinearGradient(
