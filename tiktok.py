@@ -141,11 +141,9 @@ class TiktokDownload(UserControl):
             ],
                 alignment="spaceBetween"
             ),
-            # on_hover=self.on_button,
         )
 
         container_download = Container(
-            # alignment=alignment.center,
             bgcolor="white",
             padding=2,
             border_radius=10,
