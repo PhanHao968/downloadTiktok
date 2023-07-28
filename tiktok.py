@@ -79,6 +79,7 @@ class TiktokDownload(UserControl):
         )
 
         self.url_tiktok_textField = TextField(
+            disabled=True,
             border=InputBorder.NONE,
             content_padding=padding.only(
                 top=0,
