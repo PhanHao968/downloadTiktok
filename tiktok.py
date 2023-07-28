@@ -31,7 +31,6 @@ from flet import (
 class TiktokDownload(UserControl):
     def __int__(self):
         super().__int__()
-
     #
     def download_video(self, e):
         url = "https://tiktok-downloader-download-tiktok-videos-without-watermark.p.rapidapi.com/vid/index"
